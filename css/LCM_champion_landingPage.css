@@ -1,0 +1,502 @@
+/* CSS Document */
+
+@charset "utf-8";
+
+@-webkit-viewport {
+    zoom: 1.0;
+    width: device-width;
+}
+
+@-ms-viewport {
+    zoom: 1.0;
+    width: device-width;
+}
+
+@viewport {
+    zoom: 1.0;
+    width: device-width;
+}
+
+body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f5f5;
+    font-family: Verdana, Arial, Sans-serif;
+    font-size: 12px;
+    margin: 0px;
+}
+
+.wrapper {
+    position: relative;
+    padding-right: 16px;
+    padding-left: 16px;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+}
+
+a:link {
+    color: #868686;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #868686;
+    text-decoration: underline;
+}
+
+.profile-header {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    color: #ffffff;
+    background-color: #115c85;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+.superheader {
+    background-color: #1c1e1d;
+    color: white;
+    flex: 0 0 auto;
+    font-weight: 400;
+    height: 63px;
+    width: 100%;
+}
+
+.superheader-title {
+    display: inline-block;
+    font-size: 1rem;
+    margin-top: 20px;
+    padding: 0 0 0 10px;
+}
+
+.superheader-company:before {
+    display: inline-block;
+    width: 14px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.superheader-right {
+    float: right;
+}
+
+.admin-right {
+    background: rgba(0, 0, 0, 0);
+    float: left;
+    height: 61px;
+    width: 252px;
+}
+
+.scroll {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 236px;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background: #f77d24;
+    border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+ul.intro,
+li.intro {
+    margin-bottom: 2px;
+    padding: 2px;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+}
+
+li.intro {
+    margin-bottom: 2px;
+    padding: 2px;
+    font-size: 14px;
+    list-style: square !important;
+    text-align: left !important;
+    display: block;
+    width: 100% !important;
+}
+
+span.intro {
+    margin: 8px 0px;
+    padding: 0;
+    font-family: arial;
+    color: #3c3c3c;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+form ol,
+form ul,
+ul,
+li {
+    margin-bottom: 2px;
+    padding: 2px;
+    list-style: none;
+}
+
+#tab-logic td,
+th {
+    padding-top: 4px;
+    border: 0px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 32px;
+    margin-top: -4px;
+    margin-bottom: 4px;
+    font-weight: normal;
+    color: #000000;
+    line-height: 40px;
+    letter-space: 20px;
+    font-family: Verdana, Arial, Sans-serif;
+}
+
+h2 {
+    color: #333333;
+    font-size: 26px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    letter-space: 20px;
+    font-family: Verdana, Arial, Sans-serif;
+}
+
+h3 {
+    color: #000000;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    font-family: Verdana, Arial, Sans-serif;
+}
+
+p {
+    font-family: Verdana, Arial, Sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    letter-space: 20px;
+}
+
+<!-- metric tiles used in CampaignLaunch -->.metrics {
+    border: 0px;
+    width: 100%;
+}
+
+.metrics td {
+    border: 0px;
+    text-align: center;
+}
+
+.metrics th {
+    display: none;
+}
+
+.metric-container {
+    width: 100%;
+    text-align: center;
+}
+
+.metric-tile {
+    display: inline-block;
+    width: 30%;
+    border: 1px solid #868686;
+    padding: 1%;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.metric-icon {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 22px;
+    margin-right: 15px;
+    font-size: 12px;
+    color: #949998;
+}
+
+div.metric-icon img {
+    width: 85px;
+    height: auto;
+}
+
+.metric-top {
+    display: inline-block;
+    text-align: center;
+}
+
+.metric-goal {
+    border-bottom: 1px solid #454747;
+    margin-bottom: 3px;
+}
+
+.metric-number {
+    font-size: 2.45em;
+    color: #454747;
+}
+
+.metric-bottom {}
+
+.metric-label {
+    font-size: 12px;
+    color: #949998;
+}
+
+.metric-number-orange {
+    font-size: 2.4em;
+    color: #f77d24;
+}
+
+.metric-top-list {
+    display: inline-block;
+    width: 60%;
+}
+
+.metric-goal-list {
+    display: inline-block;
+}
+
+.metric-goal-list p {
+    margin: 5px 0px 5px 0px;
+    text-align: left;
+}
+
+.metric-number-list {
+    font-size: 1.3em;
+    color: #454747;
+    vertical-align: text-top;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+table.single_value_table.metric-number-list {
+    float: left;
+    vertical-align: text-top;
+    margin-top: -10px;
+}
+
+.metric-label-list {
+    font-size: 12px;
+    color: #949998;
+    text-align: right;
+    width: 150px;
+    vertical-align: baseline;
+}
+
+<!-- end metric tiles used in CampaignLaunch --><!-- start tool tiles used in CampaignLaunch -->.tool-container {
+    width: 100%;
+    text-align: center;
+}
+
+.tool-tile {
+    display: inline-block;
+    width: 45%;
+    border: 1px solid #868686;
+    padding: 2%;
+    border-radius: 5px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.tool-tile p {
+    margin: 0px;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.panel p {
+    margin: 0px;
+}
+
+<!-- end tool tiles used in CampaignLaunch --><!-- start account manager table used in CampaignLaunch -->.acctmgr {
+    border: 0px;
+    width: 100%;
+}
+
+.acctmgr td {
+    border: 0px;
+    text-align: center;
+}
+
+table.acctmgr th:nth-child(1) {
+    color: #ffffff;
+    border-bottom: 0px;
+    width: .5%;
+}
+
+table.acctmgr td:nth-child(2) {
+    text-align: left;
+}
+
+table.acctmgr th:nth-child(2) {
+    text-align: left;
+}
+
+.acctmgr th {
+    font-size: 13px;
+    border-bottom: 1px solid #454747;
+    text-transform: uppercase;
+    Font-weight: 600;
+    color: #454747;
+    padding-top: 4px;
+}
+
+.acctmgr tr th {
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+    padding-bottom: 6px;
+}
+
+<!-- end account manager table used in CampaignLaunch -->.orange {
+    font-family: Proxima, Arial, Sans-serif;
+    font-size: 16px;
+    font-wieght: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f77d24;
+    border: 1px solid #f77d24;
+    border-radius: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 0px 0px 0px 0px;
+}
+
+span.validator {
+    display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+    .devicewidth {
+        margin: 0px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px),
+handheld and (orientation: landscape) {
+    div[class=contentEditableImage] img {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+    div[class=contentEditableContainer] {
+        width: 480px;
+    }
+    .admin-right {
+        display: none;
+    }
+    .devicewidth {
+        width: 460px;
+    }
+    h1 {
+        font-size: 120%;
+        line-height: normal;
+        font-weight: bold;
+    }
+    h2,
+    h3 {
+        font-size: 100%;
+        line-height: normal;
+    }
+    p.content {
+        font-size: 100%;
+        line-height: normal;
+    }
+}
+
+@media screen and (max-width: 360px),
+handheld and (orientation: landscape) {
+    .devicewidth {
+        width: 360px;
+    }
+    h1 {
+        font-size: 120%;
+        line-height: normal;
+        font-weight: bold;
+    }
+    h2,
+    h3 {
+        font-size: 100%;
+        line-height: normal;
+    }
+    p.content {
+        font-size: 100%;
+        line-height: normal;
+    }
+}
+
+@media screen and (max-width: 320px),
+handheld and (orientation: landscape) {
+    .devicewidth {
+        width: 320px;
+    }
+    h1 {
+        font-size: 120%;
+        line-height: normal;
+        font-weight: bold;
+    }
+    h2,
+    h3 {
+        font-size: 100%;
+        line-height: normal;
+    }
+    p.content {
+        font-size: 100%;
+        line-height: normal;
+    }
+}
