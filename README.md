@@ -1,4 +1,4 @@
-# Product-Life-Cycle-Managment-campaign
+# Product Life Cycle Managment campaign
 
 The purpose of this repository is to show my front-end design chops. The landing page was built on proprietary marketing platform and used proprietary software for table data sections. Data sections have been disconnected from the server and are displayed as html for design-view purpose. All client-specific information and links have been removed from the code.
 
